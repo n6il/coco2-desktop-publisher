@@ -1,0 +1,19 @@
+file typeset.bin 7b8d
+code 7b8d-7BB4
+comment 7b8d Calculate screen offset (ROW x 256)+COL ?? Seems wrong
+comment 7B95 Calculate offset in Font Table
+comment 7B9D Font is 8x8
+label 7BA2 LOOP
+comment 7BAC Move to next screen line
+unused 7BB5-7bf9
+data 7bfa-7bff
+rmb 7bfa
+label 7bfa ROW
+rmb 7bfb
+label 7bfb COL
+rmb 7bfc
+label 7bfc CHAR
+rmb 7bfd
+label 7bfd COUNT
+label 7c00 FONT
+label 0e00 SCREEN

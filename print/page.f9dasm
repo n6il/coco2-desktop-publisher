@@ -1,0 +1,23 @@
+file page.dmp
+label 006f DEVNUM
+label a002 CHROUT
+unused 0000-6fff
+code 7000-708b
+const 7001
+dec 7001
+label 700d LOOP
+label 7012 BIT1
+label 7019 BIT2
+label 7027 BIT3
+label 7035 BIT4
+label 7043 BIT5
+label 7051 BIT6
+label 705f BIT7
+label 706d PRINT
+unused 708c-ffff
+rmb 707a
+label 707a DATA
+label 707b BITTBL
+data 707b-7084
+rmb 7085-708b
+label 7085 INBUF
